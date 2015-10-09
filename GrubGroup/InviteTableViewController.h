@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InviteTableViewController.h
 //  GrubGroup
 //
 //  Created by Jatin Pandey on 10/8/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface InviteTableViewController : UITableViewController
 
 @end
-

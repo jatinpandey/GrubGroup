@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		8F11707D1BC789DA0089CC9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F11707C1BC789DA0089CC9A /* main.m */; };
 		8F1170801BC789DA0089CC9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F11707F1BC789DA0089CC9A /* AppDelegate.m */; };
-		8F1170831BC789DA0089CC9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1170821BC789DA0089CC9A /* ViewController.m */; };
 		8F1170861BC789DA0089CC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1170841BC789DA0089CC9A /* Main.storyboard */; };
 		8F1170881BC789DA0089CC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1170871BC789DA0089CC9A /* Assets.xcassets */; };
 		8F11708B1BC789DA0089CC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1170891BC789DA0089CC9A /* LaunchScreen.storyboard */; };
+		8F1170941BC78A170089CC9A /* InviteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1170931BC78A170089CC9A /* InviteTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		8F11707C1BC789DA0089CC9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F11707E1BC789DA0089CC9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F11707F1BC789DA0089CC9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F1170811BC789DA0089CC9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F1170821BC789DA0089CC9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F1170851BC789DA0089CC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1170871BC789DA0089CC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F11708A1BC789DA0089CC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F11708C1BC789DA0089CC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1170921BC78A170089CC9A /* InviteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteTableViewController.h; sourceTree = "<group>"; };
+		8F1170931BC78A170089CC9A /* InviteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				8F11707E1BC789DA0089CC9A /* AppDelegate.h */,
 				8F11707F1BC789DA0089CC9A /* AppDelegate.m */,
-				8F1170811BC789DA0089CC9A /* ViewController.h */,
-				8F1170821BC789DA0089CC9A /* ViewController.m */,
+				8F1170921BC78A170089CC9A /* InviteTableViewController.h */,
+				8F1170931BC78A170089CC9A /* InviteTableViewController.m */,
 				8F1170841BC789DA0089CC9A /* Main.storyboard */,
 				8F1170871BC789DA0089CC9A /* Assets.xcassets */,
 				8F1170891BC789DA0089CC9A /* LaunchScreen.storyboard */,
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1170831BC789DA0089CC9A /* ViewController.m in Sources */,
+				8F1170941BC78A170089CC9A /* InviteTableViewController.m in Sources */,
 				8F1170801BC789DA0089CC9A /* AppDelegate.m in Sources */,
 				8F11707D1BC789DA0089CC9A /* main.m in Sources */,
 			);
